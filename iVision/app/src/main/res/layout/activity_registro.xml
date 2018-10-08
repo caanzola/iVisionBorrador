@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="47dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="260dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="307dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="353dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar contraseña"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="399dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonR"
+        android:layout_width="360px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/boton_redondo"
+        android:text="Registrarme"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="40px"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="478dp"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

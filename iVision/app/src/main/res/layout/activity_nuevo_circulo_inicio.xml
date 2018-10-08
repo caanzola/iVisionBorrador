@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoCirculoInicio">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/circles" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="En iVision puedes administrar tus lugares como círculos."
+        android:textAlignment="center"
+        android:textSize="40px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Crea un círculo para empezar!"
+        android:textAlignment="center"
+        android:textSize="40px" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:hint="Nombre del circulo"/>
+
+    <TextView
+        android:id="@+id/geoPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="🌎Seleccionar la ubicación geográfica🌎"
+        android:background="#e2e3e2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:text="Crear círculo"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="40px"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
